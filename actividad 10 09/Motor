@@ -1,0 +1,27 @@
+package actividad_10_09;
+
+public class Motor{
+    private int cilindrado;
+    private String tipo;
+
+public Motor (int cilindrado, String tipo){
+    this.cilindrado = cilindrado;
+    this.tipo = tipo;
+}
+
+public void setCilindrado (int cilindrado){
+    this.cilindrado = cilindrado;
+}
+
+public void setTipo (String tipo){
+    this.tipo = tipo;
+}
+
+public int getCilindrado (){
+    return this.cilindrado;
+}
+
+public String getTipo (){
+    return this.tipo;
+}
+}
